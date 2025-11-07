@@ -1,0 +1,52 @@
+:root {
+    --color-primary-dark: #819b57;
+    --color-primary-light: #faf4ea;
+}
+
+.button {
+    background: var(--color-primary-dark);
+    border: 2px solid var(--color-primary-dark);
+    border-radius: 8px;
+    width: 232px;
+    height: 59px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-primary-light);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark);
+}
+
+.button:active {
+    background-color: pink;
+}
+
+.header-link {
+    color: var(--color-primary-light);
+}
+
+.hero-title {
+    color: var(--color-primary-light);
+}
+
+.accent {
+    color: var(--color-primary-dark);
+}
+
+.advantages {
+    background-color: var(--color-primary-dark);
+}
+
+.advantages > li {
+    color: var(--color-primary-light);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.section-title {
+    color: #31261a;
+}
